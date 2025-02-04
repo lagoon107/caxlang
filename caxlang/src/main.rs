@@ -1,7 +1,8 @@
 // Mod declarations
 mod lexer;
 mod parser;
-mod interpreter;
+mod compiler;
+mod vm;
 
 fn main() {
     
