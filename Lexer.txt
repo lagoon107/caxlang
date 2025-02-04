@@ -1,0 +1,36 @@
+// General keywords
+AND    : 'and' ;
+OR     : 'or' ;
+NOT    : 'not' ;
+EQ     : '=' ;
+
+// Math operators
+PLUS   : '+' ;
+MINUS  : '-' ;
+MULT   : '*' ;
+DIV    : '/' ;
+
+// Equality
+Equal  : '=' ;
+NEqual : '!=' ;
+DEqual : '==' ;
+
+// Other
+COMMA  : ',' ;
+SEMI   : ';' ;
+LPAREN : '(' ;
+RPAREN : ')' ;
+LCURLY : '{' ;
+RCURLY : '}' ;
+FN     : 'fn' ;
+
+VOID   : 'void' ;
+
+// Variable decls
+DECL_OP : 'let' ;
+DECL_CONST : 'const' ;
+
+NUM : [0-9.]+ ;
+STR : '"' [a-zA-Z_][a-zA-Z_0-9]* '"';
+ID  : [a-zA-Z_][a-zA-Z_0-9]*;
+WS  : [ \t\n\r\f]+ -> skip ;
