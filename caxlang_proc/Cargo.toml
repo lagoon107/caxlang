@@ -1,5 +1,5 @@
 [package]
-name = "axlang_proc"
+name = "caxlang_proc"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,3 +7,5 @@ edition = "2021"
 proc-macro = true
 
 [dependencies]
+syn = { version = "2.0.98", features = ["full"] }
+quote = "1.0.38"

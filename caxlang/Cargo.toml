@@ -7,4 +7,5 @@ edition = "2021"
 dead_code = { level="allow" }
 
 [dependencies]
+caxlang_proc = { version = "0.1.0", path = "../caxlang_proc" }
 logos = "0.15.0"

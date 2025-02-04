@@ -4,7 +4,7 @@ use std::any::Any;
 // Internal imports
 use crate::lexer::Token;
 use crate::parser::{Expr, Literal};
-use crate::vm;
+use crate::vm::{Chunk, OpCode};
 
 /// Interpreter that takes an AST and executes stuff based on it.
 struct Compiler {
@@ -19,12 +19,12 @@ impl Compiler {
     }
 
     /// Parses an ast into a `Vec` of VM chunks.
-    pub fn parse(&mut self) -> Vec<vm::Chunk> {
+    pub fn parse(&mut self) -> Vec<Chunk> {
         todo!()
     }
 
     /// Evaluates an expression and parses it to a chunk of bytecode.
-    fn evaluate(&mut self, expr: &Box<Expr>) -> vm::Chunk {
+    fn evaluate(&mut self, expr: &Box<Expr>) -> Chunk {
         todo!()
     }
 }
