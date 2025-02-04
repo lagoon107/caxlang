@@ -1,0 +1,10 @@
+[package]
+name = "caxlang"
+version = "0.1.0"
+edition = "2021"
+
+[lints.rust]
+dead_code = { level="allow" }
+
+[dependencies]
+logos = "0.15.0"
