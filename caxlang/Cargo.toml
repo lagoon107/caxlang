@@ -7,5 +7,7 @@ edition = "2021"
 dead_code = { level="allow" }
 
 [dependencies]
+anyhow = "1.0.95"
 caxlang_proc = { version = "0.1.0", path = "../caxlang_proc" }
 logos = "0.15.0"
+thiserror = "2.0.11"
